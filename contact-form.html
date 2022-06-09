@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/9abab0ea8b.js" crossorigin="anonymous"></script>
+    <script src="scripts/contact-form.js"></script>
+    <title>Contact Form- Fatkhul Umam</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <ul>
+                <img class="logo" src="assets/logo.png" alt="">
+                <li><a class="" href="index.html">Home</a></li>
+                <li><a href="#">My Project</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="">Contact Me</a>
+        </div>
+    </nav>
+    <div class="bg-form">
+        <h2>Get in Touch</h2>
+        <div class="body-form">
+            <form>
+                <div>
+                    <label for="input-name">Name</label>
+                    <input id="input-name" type="text"/>
+                </div>
+                <div>
+                    <label for="input-email">Email</label>
+                    <input id="input-email" type="text"/>
+                </div>
+                <div>
+                    <label for="phone-number">Phone Number</label>
+                    <input id="phone-number" type="number"/>
+                </div>
+                <div>
+                    <label for="choose-subject">Subject</label>
+                    <select id="choose-subject">
+                        <option value="Talk">Talk</option>
+                        <option value="Let's Collaboration">Let's Collaboration</option>
+                        <option value="Create Project">Create Project</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="massage">Your Massage</label>
+                    <textarea id="massage"></textarea>
+                </div>
+            </form>
+            <div class="button-id">
+                <button onclick="clickButton()" type="button">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
